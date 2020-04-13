@@ -1,2 +1,15 @@
 print("Hello and welcome, lets begin.")
-print("Any ideas")
+a = int(input("how much money do you have?"))
+if a<100:
+     print("i am not going to bother with you, calculate your own money")
+     import sys
+     
+     sys.exit()
+else:
+    B = int(input("how much are you willing to invest in a certain company"))
+    
+C=A-B
+if A-B<0:
+      print("i would not recomend doing that as you will not have any money left")
+else:
+     print("the remaining money you would have left is",C,)
