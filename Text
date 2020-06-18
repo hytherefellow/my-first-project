@@ -1,15 +1,20 @@
 print("Hello and welcome, lets begin.")
-a = int(input("how much money do you have?"))
-if a<100:
-     print("i am not going to bother with you, calculate your own money")
-     import sys
-     
-     sys.exit()
+A = int(input("how much money do you have?"))
+if A < 100:
+    print("i am not going to bother with you, calculate your own money")
+    import sys
+
+    sys.exit()
 else:
     B = int(input("how much are you willing to invest in a certain company"))
-    
-C=A-B
-if A-B<0:
-      print("i would not recomend doing that as you will not have any money left")
+
+C = A - B
+if A - B < 0:
+    print("i would not recommend doing that as you will not have any money left")
 else:
-     print("the remaining money you would have left is",C,)
+    print("the remaining money you would have left is", C, )
+sa = input('what company are you investing in? apple/samsung')
+if sa=='apple':
+    print("don't do it. They have enough money from selling garbage phones")
+else:
+    print('You are a smart one. You will be proud.')
